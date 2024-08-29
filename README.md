@@ -5,3 +5,6 @@ The article's main objective is to create, simulate, and assess the battery mode
 Additionally, handling the battery is essential to prevent overcharging or over discharging. As a result, a precise battery model is essential for use as a reference during the circuit design process to predict the characteristics of the battery. 
 •	To build this model, we will make predictions about the battery's state space equivalent values, which, when paired with data on the battery's state of charge and current, will yield the model voltage for an input current.
 •	In this paper, an equivalent circuit model is developed in Simulink. State-of-charge (SOC) and current allow circuit designers to adjust the battery model's characteristics in accordance with the behavior of the battery.
+
+#	Proposed model
+Capacitors and resistors are the only electronic components used in the equivalent circuit approximation to represent the battery. 
